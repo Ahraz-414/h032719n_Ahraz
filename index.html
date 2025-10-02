@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta name="description" content="Week1 responsive demo" /> 
+        <meta name="author" content="Ahraz Ali Hassan" /> 
+        <title>Week1 Demo — Responsive Web</title> 
+        <link rel="stylesheet" href="style.css" /> 
+    </head> 
+    <body> 
+        <a class="skip-link" href="#main">Skip to main content</a> 
+        <header> 
+            <div class="header-inner">
+             <h1>Ahraz Ali Hassan</h1> 
+             <button id="theme-toggle" aria-pressed="false" aria-label="Toggle light and dark mode">🌙</button> 
+            </div> 
+            <nav class="mainNav" role="navigation" aria-label="Main Navigation"> 
+                <ul> 
+                    <li><a href="#section1" aria-current="page">Home</a></li> 
+                    <li><a href="#section2">About</a></li> 
+                    <li><a href="#section3">Projects</a></li> 
+                    <li><a href="#section4">Contact</a></li> 
+                </ul> 
+            </nav> 
+        </header> 
+        <main id="main"> 
+            <div class="grid"> 
+                <section id="section1"> 
+                    <h2>Welcome</h2> 
+                    <p>Hello, I’m Ahraz Ali Hassan. This a Demo page about ME.</p> 
+                </section> 
+                <section id="section2"> 
+                    <h2>Photo</h2> 
+                    <picture> <img src="images/avater_2.png" alt="Photo of Ahraz Ali" width="800" height="600" loading="lazy"> </picture> 
+                    <p>This is my chosen picture, included as part of the demo.</p> 
+                </section> 
+                <section id="section3"> 
+                    <h2>Skills & Hobbies</h2> 
+                    <ul> 
+                        <li>Programming — Python, Java, JavaScript</li> 
+                        <li>Networking & Security</li> 
+                        <li>Hobbies — fitness, reading, gaming</li> 
+                    </ul> 
+                </section> 
+                <section id="section4"> 
+                        <h2>Contact</h2> 
+                        <p>Email: h032719n@student.staffs.ac.uk</p> 
+                        <p>Find me on GitHub: <a href="https://github.com/Ahraz-414/h032719n_Ahraz.git" target="_blank">github.com/ahraz</a></p> 
+                    
+                </section> 
+            </div> 
+        </main> 
+        <footer> 
+            <p>&copy; <span id="year"></span> Ahraz Ali</p> 
+        </footer> 
+        <script src="script.js"></script> 
+    </body> 
+    </html>
